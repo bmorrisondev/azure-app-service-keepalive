@@ -1,0 +1,20 @@
+{
+  "name": "azure-app-service-keepalive",
+  "version": "1.0.0",
+  "description": "A small library that creates an HTTP server to respond to the Azure App Service HTTP pings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests.js"
+  },
+  "keywords": [
+    "azure",
+    "app-service"
+  ],
+  "author": "Brian Morrison II",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.2.0"
+  }
+}
